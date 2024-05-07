@@ -1,8 +1,23 @@
 .portfolio {
+	position: relative;
 }
+
+.portfolio-circle {
+position: absolute;
+right: 161px;
+top: 30px;
+}
+
+.portfolio-rectangle {
+position: absolute;
+left: 74px;
+top: 545px;
+}
+
 .portfolio-list {
 	margin-top: 70px;
 }
+
 .portfolio-item {
 	padding: 24px;
 	display: inline-flex;

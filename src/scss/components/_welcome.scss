@@ -9,6 +9,72 @@
   align-items: center;
   justify-content: space-between;
   gap: 5px;
+
+  position: relative;
+}
+
+.dekor {
+  z-index: -1;
+  pointer-events: none;
+}
+
+.welcome-design-1 {
+  position: absolute;
+  top: 156px;
+  left: 556px;
+}
+
+.welcome-circle {
+  position: absolute;
+  right: 120px;
+  top: 100px;
+}
+
+.welcome-rectangle {
+  position: absolute;
+  top: 582px;
+  right: 591px;
+}
+
+.welcome-threetangle {
+  position: absolute;
+  top: 640px;
+  right: 115px;
+}
+.welcome-light-blue {
+  position: absolute;
+  z-index: -1;
+  left: -305px;
+  border-radius: 233px;
+  width: 467px;
+  height: 1233px;
+
+  filter: blur(300px);
+  background: linear-gradient(
+    180deg,
+    rgba(84, 84, 212, 0.1) 0%,
+    rgba(84, 84, 212, 0.12) 100%
+  );
+  transform: rotate(-54deg);
+  pointer-events: none;
+}
+
+.welcome-light-pink {
+  position: absolute;
+  z-index: -1;
+  right: -361px;
+  border-radius: 233px;
+  width: 467px;
+  height: 1399px;
+
+  filter: blur(500px);
+  background: linear-gradient(
+    180deg,
+    rgba(251, 168, 28, 0.15) 0%,
+    rgba(224, 86, 136, 0.15) 100%
+  );
+  transform: rotate(66deg);
+  pointer-events: none;
 }
 
 .welcome-text {
@@ -41,6 +107,5 @@
     font-weight: 700;
     font-size: 20px;
     color: #fff;
-
-     }
+  }
 }

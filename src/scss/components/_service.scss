@@ -1,57 +1,73 @@
 .service {
-	margin-top: 150px;
-	margin-bottom: 150px;
+  margin-top: 150px;
+  margin-bottom: 150px;
+  position: relative;
+  &__title {
+    max-width: 695px;
+    margin-inline: auto;
+    text-align: center;
+  }
+}
 
-	&__title {
-		max-width: 695px;
-		margin-inline: auto;
-		text-align: center;
-	}
+.service-rectangle {
+  position: absolute;
+  left: 16px;
+  bottom: 726px;
+}
+
+.service-x-1 {
+  position: absolute;
+  right: 37px;
+  bottom: 684px;
+}
+
+.service-x-2 {
+	position: absolute;
+	left: -61px;
+	bottom: 0px;
 }
 
 .service-list {
-	display: grid;
-	grid-template-columns: repeat(auto-fill, minmax(384px, 1fr));
-	gap: 24px;
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(384px, 1fr));
+  gap: 24px;
 
-	@include mobile {
-		margin-top: 50px;
-		grid-template-columns: 1fr;
-	}
+  @include mobile {
+    margin-top: 50px;
+    grid-template-columns: 1fr;
+  }
 }
 
 .service-item {
-	padding: 48px 42px;
-	display: grid;
-	gap: 20px;
-	text-align: center;
+  padding: 48px 42px;
+  display: grid;
+  gap: 20px;
+  text-align: center;
 
-	@include mobile {
-		padding: 20px;
-	}
+  @include mobile {
+    padding: 20px;
+  }
 
+  &__img {
+    width: 69px;
+    height: 69px;
+    border-radius: 50%;
+    margin-inline: auto;
+  }
 
-	&__img {
-		width: 69px;
-		height: 69px;
-		border-radius: 50%;
-		margin-inline: auto;
-	}
+  &__title {
+    font-weight: 600;
+    font-size: 28px;
+    line-height: 38px;
+    letter-spacing: -0.750316px;
+    color: #ffffff;
+  }
 
-	&__title {
-		font-weight: 600;
-		font-size: 28px;
-		line-height: 38px;
-		letter-spacing: -0.750316px;
-		color: #FFFFFF;
-
-	}
-
-	&__desc {
-		font-weight: 400;
-		font-size: 20px;
-		line-height: 28px;
-		letter-spacing: -0.500211px;
-		color: rgba(255, 255, 255, 0.7);
-	}
+  &__desc {
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 28px;
+    letter-spacing: -0.500211px;
+    color: rgba(255, 255, 255, 0.7);
+  }
 }
