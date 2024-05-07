@@ -1,0 +1,33 @@
+.contact-us {
+  background: rgba(30, 30, 32, 0.5);
+  padding-top: 187px;
+  padding-bottom: 187px;
+
+  margin-top: 168px;
+}
+
+.contact-info {
+  display: flex;
+  align-items: center;
+  gap: 173px;
+
+  &__title {
+    font-family: var(--second-f);
+    font-weight: 400;
+    font-size: 60px;
+    color: #fff;
+  }
+
+  &__btn {
+    display: inline-block;
+    font-weight: 700;
+    font-size: 21px;
+    text-align: center;
+    color: #fff;
+    white-space: nowrap;
+    border-radius: 5px;
+    height: 60px;
+    background: #5454d4;
+    padding: 16px 48px;
+  }
+}

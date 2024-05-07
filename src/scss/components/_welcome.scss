@@ -1,0 +1,46 @@
+.welcome {
+  padding-top: 23px;
+  padding-bottom: 150px;
+
+  margin-left: 168px;
+  margin-right: 168px;
+
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 5px;
+}
+
+.welcome-text {
+  &__title {
+    font-family: var(--second-f);
+    font-weight: 400;
+    font-size: 80px;
+    line-height: 105%;
+    color: #fff;
+
+    padding-bottom: 24px;
+  }
+
+  &__desc {
+    font-weight: 400;
+    font-size: 21px;
+    line-height: 186%;
+    letter-spacing: -0.03em;
+    color: rgba(255, 255, 255, 0.7);
+
+    padding-bottom: 50px;
+  }
+
+  &__button {
+    border-radius: 4px;
+    padding: 16px 27px;
+    background: #5454d4;
+    display: inline-block;
+
+    font-weight: 700;
+    font-size: 20px;
+    color: #fff;
+
+     }
+}

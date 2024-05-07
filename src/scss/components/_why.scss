@@ -1,0 +1,37 @@
+.why {
+     padding-bottom: 150px;
+}
+
+.why-section {
+     display: flex;
+     gap: 24px;
+
+     padding-bottom: 50px;
+  &__title {
+    font-family: var(--second-f);
+    font-weight: 400;
+    font-size: 60px;
+    line-height: 117%;
+    color: #fff;
+  }
+
+  &__desc {
+    font-family: var(--ff);
+    font-weight: 400;
+    font-size: 21px;
+    line-height: 186%;
+    letter-spacing: -0.03em;
+    color: rgba(255, 255, 255, 0.7);
+  }
+}
+.why-player {
+  &__photo {
+  }
+
+  &__btn {
+     display: inline-block;
+     background: #5454d4;
+     border-radius: 50%;
+     padding: 51px 52px;
+  }
+}
