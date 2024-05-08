@@ -13,6 +13,10 @@
   position: absolute;
   left: 16px;
   bottom: 726px;
+
+  @include desktop-small {
+    bottom: 848px;
+  }
 }
 
 .service-x-1 {
@@ -22,9 +26,9 @@
 }
 
 .service-x-2 {
-	position: absolute;
-	left: -61px;
-	bottom: 0px;
+  position: absolute;
+  left: -61px;
+  bottom: 0px;
 }
 
 .service-list {

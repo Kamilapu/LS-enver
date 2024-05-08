@@ -29,5 +29,36 @@
     height: 60px;
     background: #5454d4;
     padding: 16px 48px;
+
+    animation-duration: 0.7s;
+    animation-name: anima-btn;
+    animation-iteration-count: 1;
+
+    @keyframes anima-btn {
+      15% {
+        transform: translateX(9px);
+        transform: translateX(9px);
+      }
+      30% {
+        transform: translateX(-9px);
+        transform: translateX(-9px);
+      }
+      40% {
+        transform: translateX(6px);
+        transform: translateX(6px);
+      }
+      50% {
+        transform: translateX(-6px);
+        transform: translateX(-6px);
+      }
+      65% {
+        transform: translateX(3px);
+        transform: translateX(3px);
+      }
+      100% {
+        transform: translateX(0);
+        transform: translateX(0);
+      }
+    }
   }
 }
